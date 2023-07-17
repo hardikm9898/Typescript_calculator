@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatore</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+
+
+    <div class="container">
+
+
+
+        <table>
+            <tr>
+                <td colspan="5" class="display2">   </td>
+            </tr>
+            <tr>
+                <td colspan="5" class="display"></td>
+            </tr>
+            <tr>
+                <td><button value="2nd" class="btn">2nd</button></td>
+                <td><button value="m" class="btn">M</button></td>
+                <td><button value="sin(" class="btn trigon">sin</button></td>
+                <td><button value="cos(" class="btn trigon">cos</button></td>
+                <td><button value="tan(" class="btn trigon">tan</button></td>
+            </tr>
+            <tr>
+                <td><button value="^" class="btn memory">x<sup>y</sup></button></td>
+                <td><button value="log<sub>10</sub>(" class="btn">lg</button></td>
+                <td><button value="log<sub>e</sub>(" class="btn">ln</button></td>
+                <td><button value="(" class="btn">(</button></td>
+                <td><button value=")" class="btn">)</button></td>
+            </tr>
+            <tr>
+                <td><button value="√(" class="btn memory">√x</button></td>
+                <td><button value="AC" class="btn textColor">Ac</button>
+                <td><button value="backspace" class="btn svg"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="35" class="bi bi-backspace" viewBox="0 0 16 16">
+                            <path
+                                d="M5.83 5.146a.5.5 0 0 0 0 .708L7.975 8l-2.147 2.146a.5.5 0 0 0 .707.708l2.147-2.147 2.146 2.147a.5.5 0 0 0 .707-.708L9.39 8l2.146-2.146a.5.5 0 0 0-.707-.708L8.683 7.293 6.536 5.146a.5.5 0 0 0-.707 0z" />
+                            <path
+                                d="M13.683 1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-7.08a2 2 0 0 1-1.519-.698L.241 8.65a1 1 0 0 1 0-1.302L5.084 1.7A2 2 0 0 1 6.603 1h7.08zm-7.08 1a1 1 0 0 0-.76.35L1 8l4.844 5.65a1 1 0 0 0 .759.35h7.08a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1h-7.08z" />
+                        </svg></button></td>
+                <td><button value="%" class="btn textColor">%</button></td>
+                <td><button value="/" class="btn textColor">÷</button></td>
+            </tr>
+            <tr>
+                <td><button value="fact(" class="btn memory">x!</button></td>
+                <td><button value="7" class="btn notOperator">7</button></td>
+                <td><button value="8" class="btn notOperator">8</button></td>
+                <td><button value="9" class="btn notOperator">9</button></td>
+                <td><button value="*" class="btn textColor">x</button></td>
+            </tr>
+            <tr>
+                <td><button value="<sup>-1</sup>"class="btn memory">1/x</button></td>
+                <td><button value="4" class="btn notOperator">4</button></td>
+                <td><button value="5" class="btn notOperator">5</button></td>
+                <td> <button value="6" class="btn notOperator">6</button></td>
+                <td><button value="-" class="btn textColor">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="π" class="btn memory">π</button></td>
+
+                <td><button value="1"class="btn notOperator">1</button>
+                <td> <button value="2" class="btn notOperator">2</button></td>
+                <td> <button value="3" class="btn notOperator">3</button></td>
+                <td> <button value="+" class="btn textColor">+</button></td>
+            </tr>
+            <tr>
+
+              
+                <td><button value='' class="btn"><svg width="30" height="35" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            viewBox="0 0 496.8 496.8" xml:space="preserve" fill="#000000">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                            <g id="SVGRepo_iconCarrier">
+                                <path style="fill:aquamarine;"
+                                    d="M114,12c26.4,12.8,46.4,36.8,55.2,65.6c56.8-24,120.8-27.2,177.6-3.2C333.2,32,293.2,0,246,0h-85.6 C143.6,0,128.4,5.6,114,12z" />
+                                <path style="fill:#ffff;"
+                                    d="M136.4,360l-88-88.8V106.4C48.4,48,97.2,0,155.6,0h85.6C258,0,272.4,4,286,11.2 C250.8,28,224.4,64,224.4,106.4V208l0,0v63.2L136.4,360z" />
+                                <path style="fill:aquamarine;"
+                                    d="M152.4,0h88.8C258,0,272.4,0.8,290,9.6c-36,17.6-65.6,54.4-65.6,96.8V208l0,0v63.2l-88,88.8l-88-88.8 " />
+                                <path style="fill:#7afff2;"
+                                    d="M360.4,136l88,88.8v164.8c0,58.4-48.8,106.4-107.2,106.4h-85.6c-16.8,0-31.2-4-44.8-11.2 c35.2-17.6,61.6-53.6,61.6-96V288l0,0v-63.2L360.4,136z" />
+                                <path style="fill:aquamarine;"
+                                    d="M448.4,389.6c0,58.4-48.8,106.4-107.2,106.4h-85.6c-16.8,0-31.2-4-44.8-11.2 c35.2-17.6,61.6-53.6,61.6-96V288l0,0v-56" />
+                                <path style="fill:aquamarine;"
+                                    d="M387.6,485.6c-26.4-12.8-52-38.4-60-66.4c-56.8,24-120.8,26.4-177.6,2.4 c13.6,42.4,54.4,75.2,101.6,75.2h89.6C358,496,374,492,387.6,485.6z" />
+                                <path style="fill:aquamarinemarine;"
+                                    d="M251.6,496h89.6c16.8,0,32.8-4,46.4-11.2c-26.4-12.8-52-38.4-60-66.4" />
+                            </g>
+
+                        </svg></button></td>
+                        <td><button value="e" class="btn">e</button></td>
+                        <td> <button value="0" class="btn">0</button></td>
+                        <td> <button value="." class="btn">.</button></td>
+                        <td><button value='=' class="btn textColor">=</button></td>
+            </tr>
+    </div>
+    <script src="./build/script.js"></script>
+</body>
+
+</html>
